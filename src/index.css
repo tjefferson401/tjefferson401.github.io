@@ -33,9 +33,9 @@
 }
 
 .paper-list {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px; /* Adjust the gap between the items as needed */
 }
 
 
@@ -44,6 +44,7 @@
 
 
 .paper {
+  position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
