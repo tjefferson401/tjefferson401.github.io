@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
 
-
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -8,7 +7,7 @@
 
   color-scheme: light dark;
   color: black;
-  background-color: #e8e4e4;
+  background-color: white;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -38,18 +37,13 @@
   flex-wrap: wrap;
 }
 
-
-
-
-
-
 .paper {
   position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  max-width: 340px;
+  width: 100%;
   margin: 1rem;
   padding: 1rem;
   border-radius: 1rem;
@@ -65,5 +59,35 @@
 
 .paper-info {
   width: 57%;
+
+}
+
+
+.image-question:hover {
+  cursor: help;
+}
+
+
+
+
+
+/* Dungeon */
+.dungeon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: auto;
+  background-color: black;
+}
+
+
+a {
+  color: green;
+  text-decoration: none;
 
 }
