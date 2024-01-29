@@ -35,7 +35,7 @@ export const Header = ({setIsDungeon}) => {
             <div style={containerStyle}>
                 <div style={textStyle}>
                 <h1 style={{marginBottom: "5px"}}>TJ Jefferson</h1>
-                <h2 style={headerStyle}>Lead Software Engineer at Stanford's <a href="https://piechlab.stanford.edu">Piech Lab</a></h2>
+                <h2 style={headerStyle}>Lead Software Engineer at Stanford's <a href="https://piechlab.stanford.edu"></a></h2>
                 <h3 style={headerStyle}>tj /at/ shcove.com</h3>
                 <div style={{display: "flex", flexDirection: "row"}}>
                     <a href="https://github.com/tjefferson401" aria-label="Github Link" ><FaGithub style={{marginRight: "5px", fontSize:"xx-large", color: "green"}}/></a>
