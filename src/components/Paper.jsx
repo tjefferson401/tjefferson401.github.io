@@ -1,7 +1,9 @@
 import { FaStar } from "react-icons/fa";
+import { useState } from "react";
 
 
 export const Paper = ({authors, title, conference="", picUrl, award="", url=""}) => {
+    const [open, setOpen] = useState(false)
     const style = {
         marginBottom: "4px",
         marginTop: "2px",
@@ -19,8 +21,17 @@ export const Paper = ({authors, title, conference="", picUrl, award="", url=""})
         fontWeight: 'bold',
     };
 
+
+    if(!open) {
+        return (
+            <button className="paper-closed" onClick={() => setOpen(true)}>
+                {title}
+            </button>
+        )
+    }
+
     return (
-        <div className="paper" >
+        <button className="paper" onClick={() => setOpen(false)} >
             {award && <div style={badgeStyle}><FaStar/> {award}</div>}
             <img className="paper-pic" src={picUrl} alt={title}/>
             <div className="paper-info">
@@ -30,6 +41,6 @@ export const Paper = ({authors, title, conference="", picUrl, award="", url=""})
             </div>
 
 
-        </div>
+        </button>
     )
 }

@@ -91,3 +91,25 @@ a {
   text-decoration: none;
 
 }
+
+
+
+.paper-closed {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0.2rem;
+  border-radius: 1rem;
+  background-color: rgb(226, 231, 226);
+  color: rgb(52, 50, 50);
+  border: none;
+  transition: 0.5s;
+}
+
+.paper-closed:hover {
+  cursor: help;
+  background-color: green;
+}
