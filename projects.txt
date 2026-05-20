@@ -2,7 +2,7 @@ tj401.com > projects.txt
 
 # Projects
 I've been extremely lucky to be involved in many exciting projects that were the result of hard work and collaboration with many exceptional people.
-I'm proud of all of the below work, but please note, almost none were solo projects.
+I'm proud of the below work, but please note, very few were solo projects.
 
 ## Piechlab projects
 - Code in Place - codeinplace.stanford.edu 
