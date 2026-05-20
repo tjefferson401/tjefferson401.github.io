@@ -1,0 +1,32 @@
+# Projects
+I've been extremely lucky to be involved in many exciting projects that were the result of hard work and collaboration with many exceptional people.
+I'm proud of all of the below work, but please note, almost none were solo projects.
+
+## Piechlab projects
+- Code in Place - codeinplace.stanford.edu 
+        Lead software development for the Code in Place platform, which offers live CS courses with thousands of teachers to the world.
+- Code for Humanities - codeforhumanities.stanford.edu
+        Co-taught a 2 week, 9-5 programming + AI course to a group of Stanford humanities professors.
+- ide.stanford.edu
+        Built an in-browser IDE for beginner programmers that has been used to create millions of projects by coders in over 150 countries.
+- Python in Whatsapp - https://whatsapp-in-python.web.app
+        A way to share and run Python programs over Whatsapp.
+
+## Other projects
+- stillhousedata.com
+- fundadminleaguetable.com
+- randompoem.fun
+
+## Papers
+PyodideU: Unlocking Python Entirely in a Browser for CS1
+stanford.edu/~cpiech/bio/papers/pyodideU.pdf
+
+The Effects of Chatbot Placement, Personification, and Functionality on Student Outcomes in a Global CS1 Course
+dl.acm.org/doi/pdf/10.1145/3698205.3729557
+
+An LLM Compliance Pipeline for Form ADV Part 2 Brochures
+https://drive.google.com/file/d/1NYWyOcby7q_lh_RiUHb29hKfeWN7YZ5y/view?usp=sharing
+
+Code in Place 2023: Understanding learning and teaching at scale through a massive global classroom
+juliettewoodrow.github.io/pdfs/codeinplace2023.pdf
+
